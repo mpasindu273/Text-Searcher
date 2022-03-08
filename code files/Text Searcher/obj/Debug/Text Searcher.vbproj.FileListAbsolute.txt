@@ -26,3 +26,17 @@ C:\Users\user1\Documents\Programming\Projects\Text Searcher\Text Searcher\obj\De
 C:\Users\user1\Documents\Programming\Projects\Text Searcher\Text Searcher\obj\Debug\Text Searcher.vbproj.GenerateResource.Cache
 C:\Users\user1\Documents\Programming\Projects\Text Searcher\Text Searcher\obj\Debug\Text Searcher.exe.manifest
 C:\Users\user1\Documents\Programming\Projects\Text Searcher\Text Searcher\obj\Debug\Text Searcher.application
+C:\Users\user1\Documents\Programming\Projects\Text Searcher\code files\Text Searcher\bin\Debug\Text Searcher.exe.config
+C:\Users\user1\Documents\Programming\Projects\Text Searcher\code files\Text Searcher\obj\Debug\Text Searcher.exe
+C:\Users\user1\Documents\Programming\Projects\Text Searcher\code files\Text Searcher\obj\Debug\Text Searcher.xml
+C:\Users\user1\Documents\Programming\Projects\Text Searcher\code files\Text Searcher\obj\Debug\Text Searcher.pdb
+C:\Users\user1\Documents\Programming\Projects\Text Searcher\code files\Text Searcher\bin\Debug\Text Searcher.exe.manifest
+C:\Users\user1\Documents\Programming\Projects\Text Searcher\code files\Text Searcher\bin\Debug\Text Searcher.application
+C:\Users\user1\Documents\Programming\Projects\Text Searcher\code files\Text Searcher\bin\Debug\Text Searcher.exe
+C:\Users\user1\Documents\Programming\Projects\Text Searcher\code files\Text Searcher\bin\Debug\Text Searcher.pdb
+C:\Users\user1\Documents\Programming\Projects\Text Searcher\code files\Text Searcher\bin\Debug\Text Searcher.xml
+C:\Users\user1\Documents\Programming\Projects\Text Searcher\code files\Text Searcher\obj\Debug\Text_Searcher.Form1.resources
+C:\Users\user1\Documents\Programming\Projects\Text Searcher\code files\Text Searcher\obj\Debug\Text_Searcher.Resources.resources
+C:\Users\user1\Documents\Programming\Projects\Text Searcher\code files\Text Searcher\obj\Debug\Text Searcher.vbproj.GenerateResource.Cache
+C:\Users\user1\Documents\Programming\Projects\Text Searcher\code files\Text Searcher\obj\Debug\Text Searcher.exe.manifest
+C:\Users\user1\Documents\Programming\Projects\Text Searcher\code files\Text Searcher\obj\Debug\Text Searcher.application

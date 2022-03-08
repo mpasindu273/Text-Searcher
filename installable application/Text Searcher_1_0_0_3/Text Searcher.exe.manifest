@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Text Searcher.exe" version="1.0.0.3" publicKeyToken="fe1cd4768fda5e32" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Text Searcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Text Searcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Text Searcher.exe" size="38912">
+      <assemblyIdentity name="Text Searcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>aH3LKb2Tu7407fjckkdKkIt9Kz5J22eD2CVEQHk8Stc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Text Searcher.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BG\BG" issuerKeyHash="5f57680ff01d2b37cf6cf3c37deb85c121f4993d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6PzvW1bR2DzyC6guGosg9ev9/4oDiDHetTtvqmZ+6cw=</DigestValue></Reference></SignedInfo><SignatureValue>Db+C2ucz1+1IMbRuZL1ZlxN2BkiAz8/cPXFeNnwmuByanDR2LGkQe8qB4vo1nGa3epEpMz5f8iv8Zp8IF1qHxA9ssFXZ5OubGNQwPJvPwhjNbxda+vljsVGn6BFwGmXmdr64foO+5kkh9YKwJahGfLxFXcvOn3H533wcVtk6RZE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5sJ/M9uKGJMzGuTnls6uZqDiebU36VebSHiFT+qO9JeSla1zkPer/5glp6mzAWhLTiAqMUjNDjsdWf7PzBcOg5Dg0JVt6Ax/jhCGkGEMkiar9aiQavjmGRLye/XB+HG04agtJBxqxaAyol+R0PxPn7KglBdedExrOweWBAZN5Y8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cce97e66aa6f3bb5de3188038afffdebf5208b1a2ea80bf23cd8d1565beffce8" Description="" Url=""><as:assemblyIdentity name="Text Searcher.exe" version="1.0.0.3" publicKeyToken="fe1cd4768fda5e32" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BG\BG</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Ez8vtBxCKrp6SGvd3OY4kUomq/lT6beoThA8aFep0Lw=</DigestValue></Reference></SignedInfo><SignatureValue>BhTN81UvJdM93RRTIkeRv0QhHmDqTupkC/nI72NZUJ4fNBc7OAvgupMYDWJkUB20oQcOFf5b06Oi0Af1GlMweA1LfUDA5egAaYAnP4yhPua2Z/iooVESz0Lu38etXpZ0XpqiwK3tIB7yCi8Uyl3lWA3/l70IehWrsN3gw2S7Kj0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5sJ/M9uKGJMzGuTnls6uZqDiebU36VebSHiFT+qO9JeSla1zkPer/5glp6mzAWhLTiAqMUjNDjsdWf7PzBcOg5Dg0JVt6Ax/jhCGkGEMkiar9aiQavjmGRLye/XB+HG04agtJBxqxaAyol+R0PxPn7KglBdedExrOweWBAZN5Y8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBrTCCARagAwIBAgIQcNg5X5L5irJPBMziBC/1JDANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDHgoAQgBHAFwAQgBHMB4XDTIxMDYwMjA5MTE0MVoXDTIyMDYwMjE1MTE0MVowFTETMBEGA1UEAx4KAEIARwBcAEIARzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA5sJ/M9uKGJMzGuTnls6uZqDiebU36VebSHiFT+qO9JeSla1zkPer/5glp6mzAWhLTiAqMUjNDjsdWf7PzBcOg5Dg0JVt6Ax/jhCGkGEMkiar9aiQavjmGRLye/XB+HG04agtJBxqxaAyol+R0PxPn7KglBdedExrOweWBAZN5Y8CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAu6ZwoG0kurA9OhuJPOKs3shSLfSgZc7GKPziz1KIKKuVWe/3k2Wt30zlldo1t3IUWNKbJg305YEfsIBRP7WMvGzEOLW4CmC+FeQRoh1WFvQfY4Jt07D1UQkBz4ywFt/1ybmmTM6/BWo2c5pu0cp3vBCOYTQmbYsE165M/KYxT3Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
